@@ -23,7 +23,7 @@ jobs:
       run:
         shell: bash
     steps:
-      - uses: https://data.forgejo.org/actions/checkout@v4
+      - uses: https://data.forgejo.org/actions/checkout@v7
         with:
           # Full history, so commitlint can walk the commits of the push or the PR.
           fetch-depth: 0
